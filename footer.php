@@ -117,9 +117,9 @@
                             <option value="1">Tiếng Việt</option>
                             <option value="2">Tiếng Anh</option>
                         </select>
-                        <span class="uk-link-reset">
+                        <span class="uk-link-reset select_lang uk-flex uk-position-relative uk-padding-small uk-padding-remove-top uk-padding-remove-bottom uk-padding-remove-left">
                             <span uk-icon="icon: world"></span>
-                            <span></span>
+                            <span style="margin-left: 5px;"></span>
                         </span>
                     </div>
                 </div>
