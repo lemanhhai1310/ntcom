@@ -1,5 +1,8 @@
 #footer{
   background-color: #262626;
+  hr{
+    border-color: #606060;
+  }
 }
 .title_f{
   color: #ffffff;
@@ -39,5 +42,36 @@
 .dcma{
   img{
     height: 36px;
+  }
+}
+.site_map_f{
+  li{
+    a{
+      color: #ffffff;
+      font-size: 14px;
+      img{
+        height: 20px;
+      }
+      span{
+        color: #919699;
+      }
+    }
+  }
+}
+.Nav_f{
+  li{
+    font-size: 13px;
+    a,span{
+      color: #6d7072;
+    }
+    &:nth-child(n+2){
+      &:not(.uk-first-column){
+        &:before{
+          content: '|';
+          margin: 0 10px;
+
+        }
+      }
+    }
   }
 }

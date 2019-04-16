@@ -51,7 +51,7 @@
                 <?php } ?>
                 <div class="uk-width-expand@m uk-text-right@m">
                     <h5 class="title_f">Đăng ký nhận tin</h5>
-                    <form class="box1_f uk-margin">
+                    <form class="box1_f uk-margin-medium-bottom">
                         <fieldset class="uk-fieldset">
                             <legend class="uk-legend uk-margin-small">Nhận tin tức mới nhất từ NTCOM</legend>
                             <div class="uk-grid-small uk-width-medium@m uk-margin-auto-left uk-grid-collapse uk-grid" uk-grid="">
@@ -64,20 +64,67 @@
                             </div>
                         </fieldset>
                     </form>
-                    <ul class="uk-grid-small uk-margin uk-child-width-auto uk-flex-right@m payment_method" uk-grid>
+                    <ul class="uk-grid-small uk-margin-medium uk-child-width-auto uk-flex-right@m payment_method" uk-grid>
                         <li><img src="imgs/paypal.png" alt=""></li>
                         <li><img src="imgs/visa.png" alt=""></li>
                         <li><img src="imgs/master-card.png" alt=""></li>
                         <li><img src="imgs/discover.png" alt=""></li>
                         <li><img src="imgs/american-express.png" alt=""></li>
                     </ul>
-                    <div class="uk-margin dcma">
+                    <div class="uk-margin-medium dcma">
                         <a href="#"><img src="imgs/dcma.png" alt=""></a>
                     </div>
                 </div>
             </div>
         </div>
-
+        <div class="uk-flex-between@m uk-flex-middle" uk-grid>
+            <div class="uk-width-auto@m">
+                <ul class="uk-grid-small uk-child-width-auto uk-flex-middle site_map_f" uk-grid>
+                    <li><a href="#"><img src="imgs/logo.png" alt=""></a></li>
+                    <li><a href="#">Về NTCOM</a></li>
+                    <li><a href="#">Liên hệ chúng tôi</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+                    <li><a href="#">Hỏi đáp</a></li>
+                </ul>
+            </div>
+            <div class="uk-width-auto@m">
+                <ul class="uk-grid-small uk-child-width-auto site_map_f uk-flex-middle" uk-grid>
+                    <li><a href="#"><span uk-icon="facebook"></span></a></li>
+                    <li><a href="#"><span uk-icon="twitter"></span></a></li>
+                    <li><a href="#"><span uk-icon="youtube"></span></a></li>
+                    <li><a href="#"><span uk-icon="vimeo"></span></a></li>
+                    <li><a href="#"><span uk-icon="instagram"></span></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr class="uk-margin">
+        <div class="uk-section-xsmall uk-padding-remove-top">
+            <div class="uk-flex-between@m uk-flex-bottom" uk-grid>
+                <div class="uk-width-auto@m">
+                    <ul class="uk-breadcrumb Nav_f uk-margin-small">
+                        <li><span>Bản quyền © 2019 Bảo lưu mọi quyền</span></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Sử dụng cookie</a></li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                    </ul>
+                    <ul class="uk-breadcrumb Nav_f uk-margin-small">
+                        <li><span>Phản hồi về trải nghiệm web?</span> <a href="#">Bấm vào đây</a></li>
+                    </ul>
+                </div>
+                <div class="uk-width-auto@m">
+                    <div uk-form-custom="target: > * > span:last-child">
+                        <select>
+                            <option value="1">Tiếng Việt</option>
+                            <option value="2">Tiếng Anh</option>
+                        </select>
+                        <span class="uk-link-reset">
+                            <span uk-icon="icon: world"></span>
+                            <span></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>
 </section>
