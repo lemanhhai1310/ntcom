@@ -1,0 +1,43 @@
+#footer{
+  background-color: #262626;
+}
+.title_f{
+  color: #ffffff;
+  font-size: 15px;
+}
+.list1_f{
+  li{
+    a{
+      color: #6d7072;
+    }
+  }
+}
+.box1_f{
+  .uk-legend{
+    font-size: 14px;
+    color: #6d7072;
+  }
+  .uk-input{
+    background-color: transparent;
+    border-color: #6d7072;
+    font-size: 14px;
+  }
+  .uk-button{
+    background-color: #6d7072;
+    border-color: #6d7072;
+  }
+}
+.payment_method{
+  margin-left: -5px;
+  >li{
+    padding-left: 5px;
+    img{
+      height: 40px;
+    }
+  }
+}
+.dcma{
+  img{
+    height: 36px;
+  }
+}
