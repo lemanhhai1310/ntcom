@@ -6,6 +6,54 @@
             <span class="uk-margin-small-left uk-margin-small-right">Các dòng sản phẩm chính</span>
             <i class="fa fa-circle" aria-hidden="true"></i>
         </h2>
+        <div class="uk-child-width-1-2 uk-child-width-1-4@m uk-grid-small" uk-grid>
+            <?php
+            $item = array(
+                array(
+                    'src' => 'imgs/spchinh/img1.png',
+                    'title' => 'Switching',
+                ),
+                array(
+                    'src' => 'imgs/spchinh/img2.png',
+                    'title' => 'Routing',
+                ),
+                array(
+                    'src' => 'imgs/spchinh/img3.png',
+                    'title' => 'Wireless',
+                ),
+                array(
+                    'src' => 'imgs/spchinh/img4.png',
+                    'title' => 'Network Security',
+                ),
+                array(
+                    'src' => 'imgs/spchinh/img5.png',
+                    'title' => 'Media Converters',
+                ),
+                array(
+                    'src' => 'imgs/spchinh/img6.png',
+                    'title' => 'Network Adapters',
+                ),
+                array(
+                    'src' => 'imgs/spchinh/img7.png',
+                    'title' => 'Transceivers',
+                ),
+                array(
+                    'src' => 'imgs/spchinh/img8.png',
+                    'title' => 'Sản phẩm khác',
+                ),
+            );
+            foreach ($item as $key => $value) { ?>
+                <div>
+                    <div class="uk-card card3 uk-card-default uk-card-body uk-text-center uk-transition-toggle uk-height-1-1">
+                        <div class="uk-inline-clip uk-width-1-1" tabindex="1">
+                            <div class="uk-background-contain uk-background-center-center uk-transition-scale-up uk-transition-opaque box_img" style="background-image: url(<?php echo $value['src']; ?>); padding-top: 53%;"></div>
+                        </div>
+                        <h3 class="uk-card-title"><a href="#"><?php echo $value['title']; ?></a></h3>
+                        <hr class="uk-divider-small">
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
         <h2 class="title_c uk-flex uk-flex-middle uk-flex-center uk-margin-medium">
             <i class="fa fa-circle" aria-hidden="true"></i>
             <span class="uk-margin-small-left uk-margin-small-right">Sản phẩm bán chạy</span>

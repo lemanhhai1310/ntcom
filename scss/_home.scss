@@ -89,3 +89,19 @@
     }
   }
 }
+.card3{
+  .uk-card-title{
+    font-family:'Montserrat-Medium';
+    font-size: 18px;
+    a{
+      color: #000;
+    }
+  }
+  .uk-divider-small{
+    &:after{
+      width: 40px;
+      border-width: 2px;
+      border-color: #db3237;
+    }
+  }
+}
