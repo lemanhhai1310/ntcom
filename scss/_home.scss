@@ -9,12 +9,47 @@
   }
   p{
     color: #4b4b4b;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
   }
   .uk-divider-small{
     &:after{
       width: 30px;
       border-color: #505355;
       border-width: 2px;
+    }
+  }
+}
+.card2{
+  .uk-card-title{
+    font-family:'SVN-Gilroy Bold';
+    a{
+      color: #3b3d3e;
+      span{
+        font-family:'SVN-Gilroy Light';
+      }
+    }
+  }
+  p{
+    font-family:'Montserrat-Medium';
+    color: #1d1d1d;
+  }
+  .order{
+    text-transform: inherit;
+    background-color: #353738;
+    border-color: #353738;
+    color: #ffffff;
+    font-family:'Montserrat-SemiBold';
+  }
+  .uk-link{
+    color: #1d1d1d;
+    font-family:'Montserrat-SemiBold';
+    &:hover{
+      color: #1d1d1d;
     }
   }
 }
