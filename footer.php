@@ -1,6 +1,6 @@
 <footer id="footer" class="uk-position-relative">
     <div class="uk-position-top-center uk-position-z-index uk-text-center go-up">
-        <a href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+        <a href="#" uk-totop uk-scroll></a>
     </div>
     <div class="uk-container">
         <div class="uk-section">

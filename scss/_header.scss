@@ -1,0 +1,18 @@
+.uk-logo{
+  #header &{
+    img{
+      height: 30px;
+    }
+  }
+}
+#header{
+  .uk-navbar-nav{
+    >li{
+      >a{
+        color: #ffffff;
+        text-transform: inherit;
+        font-size: 14.5px;
+      }
+    }
+  }
+}

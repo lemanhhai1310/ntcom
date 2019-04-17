@@ -1,4 +1,16 @@
 <?php include('header.php'); ?>
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 1920:1002">
+
+    <ul class="uk-slideshow-items">
+        <li>
+            <img src="imgs/slider1.jpg" alt="" uk-cover>
+        </li>
+    </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+</div>
 <div class="uk-section-small block_step">
     <div class="uk-container">
         <div class="uk-child-width-1-4@m" uk-grid uk-scrollspy="cls: uk-animation-scale-down; target: > div > .box_step; delay: 500; repeat: false">
