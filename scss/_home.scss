@@ -107,6 +107,26 @@
 }
 .block_step{
   background-color: #fff;
+  .uk-grid{
+    >div{
+      &:nth-child(n+2){
+        position: relative;
+        &:before{
+          @media(min-width: 960px){
+            content: '';
+            background-image: url("../imgs/line-step.png");
+            display: inline-block;
+            width: 38.6px;
+            height: 100px;
+            position: absolute;
+            left: 0;
+            top: calc((146px - 100px)/2);
+            background-size: contain;
+          }
+        }
+      }
+    }
+  }
 }
 .box_step{
   img{
