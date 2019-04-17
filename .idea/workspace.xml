@@ -29,10 +29,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="479">
-                  <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+                <state relative-caret-position="335">
+                  <caret line="46" column="173" selection-start-line="46" selection-start-column="173" selection-end-line="46" selection-end-column="173" />
                   <folding>
-                    <element signature="e#2069#2127#0#HTML" expanded="true" />
+                    <element signature="e#3340#3418#0#HTML" expanded="true" />
+                    <element signature="e#32#1349#0#HTML" />
                   </folding>
                 </state>
               </provider>
@@ -90,8 +91,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/_home.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="535">
-                  <caret line="101" column="14" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
+                <state relative-caret-position="460">
+                  <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -120,8 +121,8 @@
         <option value="$PROJECT_DIR$/scss/_commons.scss" />
         <option value="$PROJECT_DIR$/scss/layout.scss" />
         <option value="$PROJECT_DIR$/scss/_fonts.scss" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/scss/_home.scss" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -219,12 +220,12 @@
       <option name="presentableId" value="Default" />
       <updated>1555430105510</updated>
       <workItem from="1555430107076" duration="6202000" />
-      <workItem from="1555473047902" duration="8031000" />
+      <workItem from="1555473047902" duration="9152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14233000" />
+    <option name="totallyTimeSpent" value="15354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
@@ -312,20 +313,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/scss/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
-          <folding>
-            <element signature="e#2069#2127#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="460">
+          <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_home.scss">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="101" column="14" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
+        <state relative-caret-position="335">
+          <caret line="46" column="173" selection-start-line="46" selection-start-column="173" selection-end-line="46" selection-end-column="173" />
+          <folding>
+            <element signature="e#3340#3418#0#HTML" expanded="true" />
+            <element signature="e#32#1349#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>

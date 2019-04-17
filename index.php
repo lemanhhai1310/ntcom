@@ -1,4 +1,42 @@
 <?php include('header.php'); ?>
+<div class="uk-section-small block_step">
+    <div class="uk-container">
+        <div class="uk-child-width-1-4@m" uk-grid uk-scrollspy="cls: uk-animation-scale-down; target: > div > .box_step; delay: 500; repeat: false">
+            <?php
+            $item = array(
+                array(
+                    'src' => 'imgs/step1.png',
+                    'title' => 'chính hãng',
+                    'desc' => 'Sản phẩm chính uy tín',
+                ),
+                array(
+                    'src' => 'imgs/step2.png',
+                    'title' => 'bảo hành',
+                    'desc' => 'Hỗ trợ bảo hành 24/07',
+                ),
+                array(
+                    'src' => 'imgs/step3.png',
+                    'title' => 'kiểm nghiệm',
+                    'desc' => 'Sản phẩm được kiểm nghiệm kỹ càng',
+                ),
+                array(
+                    'src' => 'imgs/step4.png',
+                    'title' => 'tiết kiệm',
+                    'desc' => 'Giá thành phải chăng',
+                ),
+            );
+            foreach ($item as $key => $value) { ?>
+                <div>
+                    <div class="box_step uk-text-center">
+                        <img class="uk-margin-small" src="<?php echo $value['src']; ?>" alt="">
+                        <h3 class="uk-text-uppercase uk-margin-small"><?php echo $value['title']; ?></h3>
+                        <p class="uk-margin-small"><?php echo $value['desc']; ?></p>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
+    </div>
+</div>
 <div class="uk-section">
     <div class="uk-container">
         <h2 class="title_c uk-flex uk-flex-middle uk-flex-center uk-margin-medium">
@@ -6,7 +44,7 @@
             <span class="uk-margin-small-left uk-margin-small-right">Các dòng sản phẩm chính</span>
             <i class="fa fa-circle" aria-hidden="true"></i>
         </h2>
-        <div class="uk-child-width-1-2 uk-child-width-1-4@m uk-grid-small" uk-grid>
+        <div class="uk-child-width-1-2 uk-child-width-1-4@m uk-grid-small" uk-grid uk-scrollspy="cls: uk-animation-fade; target: > div > .uk-card; delay: 500; repeat: false">
             <?php
             $item = array(
                 array(
