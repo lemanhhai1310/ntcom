@@ -3,21 +3,25 @@
     <div class="uk-container">
         <h2 class="title_c uk-flex uk-flex-middle uk-flex-center uk-margin-medium">
             <i class="fa fa-circle" aria-hidden="true"></i>
+            <span class="uk-margin-small-left uk-margin-small-right">Các dòng sản phẩm chính</span>
+            <i class="fa fa-circle" aria-hidden="true"></i>
+        </h2>
+        <h2 class="title_c uk-flex uk-flex-middle uk-flex-center uk-margin-medium">
+            <i class="fa fa-circle" aria-hidden="true"></i>
             <span class="uk-margin-small-left uk-margin-small-right">Sản phẩm bán chạy</span>
             <i class="fa fa-circle" aria-hidden="true"></i>
         </h2>
-        <div uk-slider>
+        <div class="spbc_slider uk-overflow-hidden" uk-slider>
 
             <div class="uk-position-relative">
 
                 <div class="uk-slider-container uk-light">
-                    <ul class="uk-slider-items uk-child-width-1-2" uk-grid>
+                    <ul class="uk-slider-items uk-child-width-1-2@m uk-grid-medium" uk-grid>
                         <li>
                             <div class="uk-card card2 uk-card-default">
                                 <div class="uk-card-body">
                                     <div class="uk-cover-container">
-                                        <img src="imgs/spbc/spbc1.jpg" alt="" uk-cover>
-                                        <canvas width="600" height="400"></canvas>
+                                        <img src="imgs/spbc/spbc1.jpg" alt="">
                                     </div>
                                     <h3 class="uk-card-title"><a href="#">Catalyst IE3200 <span>Rugged Series (new)</span></a></h3>
                                     <p>Fixed DIN Rail switch  |  All Gigabit Ethernet platform  |  8 PoE/POE+ ports  |  Cisco DNA Center for management</p>
@@ -30,11 +34,10 @@
                             <div class="uk-card card2 uk-card-default">
                                 <div class="uk-card-body">
                                     <div class="uk-cover-container">
-                                        <img src="imgs/spbc/spbc1.jpg" alt="" uk-cover>
-                                        <canvas width="600" height="400"></canvas>
+                                        <img src="imgs/spbc/spbc2.jpg" alt="">
                                     </div>
-                                    <h3 class="uk-card-title"><a href="#">Catalyst IE3200 <span>Rugged Series (new)</span></a></h3>
-                                    <p>Fixed DIN Rail switch  |  All Gigabit Ethernet platform  |  8 PoE/POE+ ports  |  Cisco DNA Center for management</p>
+                                    <h3 class="uk-card-title"><a href="#">Cisco Catalyst 4500-X Series</a></h3>
+                                    <p>Cost-effective, small, fixed aggregation switch  |  High-availability features reduce downtime+</p>
                                     <a href="#" class="uk-button order uk-button-secondary">Đặt hàng</a>
                                     <a href="#" class="uk-link uk-margin-small-left">Đọc thêm <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                                 </div>
@@ -44,8 +47,7 @@
                             <div class="uk-card card2 uk-card-default">
                                 <div class="uk-card-body">
                                     <div class="uk-cover-container">
-                                        <img src="imgs/spbc/spbc1.jpg" alt="" uk-cover>
-                                        <canvas width="600" height="400"></canvas>
+                                        <img src="imgs/spbc/spbc1.jpg" alt="">
                                     </div>
                                     <h3 class="uk-card-title"><a href="#">Catalyst IE3200 <span>Rugged Series (new)</span></a></h3>
                                     <p>Fixed DIN Rail switch  |  All Gigabit Ethernet platform  |  8 PoE/POE+ ports  |  Cisco DNA Center for management</p>
@@ -55,16 +57,8 @@
                             </div>
                         </li>
                     </ul>
-                </div>
-
-                <div class="uk-hidden@s uk-light">
                     <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
                     <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
-                </div>
-
-                <div class="uk-visible@s">
-                    <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                    <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
                 </div>
 
             </div>

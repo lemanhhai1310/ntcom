@@ -25,6 +25,14 @@
   }
 }
 .card2{
+  .uk-cover-container{
+    height: 334px;
+    display: flex;
+    align-items: center;
+  }
+  img{
+
+  }
   .uk-card-title{
     font-family:'SVN-Gilroy Bold';
     a{
@@ -50,6 +58,34 @@
     font-family:'Montserrat-SemiBold';
     &:hover{
       color: #1d1d1d;
+    }
+  }
+}
+.uk-slidenav{
+  .spbc_slider &{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #d2d3d3;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    svg{
+
+    }
+    &.uk-slidenav-previous{
+      justify-content: flex-end;
+      left: calc((-30px - 100px)/2);
+      svg{
+        margin-right: 20px;
+      }
+    }
+    &.uk-slidenav-next{
+      justify-content: flex-start;
+      right: calc((-30px - 100px)/2);
+      svg{
+        margin-left: 20px;
+      }
     }
   }
 }
