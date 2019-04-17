@@ -85,3 +85,14 @@
     display: inline-block;
   }
 }
+.go-up{
+  background-image: url("../imgs/go-up.png");
+  width: 164px;
+  height: 28px;
+  display: inline-block;
+  bottom: 99%;
+  top: inherit;
+  a{
+    color: #ffffff;
+  }
+}
