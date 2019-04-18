@@ -40,7 +40,7 @@
      theme_color="#24892d">
 </div>
 <section id="root" class="uk-height-viewport uk-offcanvas-content">
-<header id="header" class="uk-position-z-index" uk-sticky="animation: uk-animation-slide-top; top: 100vh">
+<header id="header" class="uk-position-z-index" uk-sticky="animation: uk-animation-slide-top; top: 500">
     <div class="uk-container">
         <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
 

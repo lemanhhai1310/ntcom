@@ -41,7 +41,7 @@
                                     <canvas width="523" height="349"></canvas>
                                 </div>
                                 <div class="uk-card-body">
-                                    <h3 class="uk-card-title uk-text-uppercase"><a href="#">Đánh giá chi tiết Galaxy Watch Active: Đứa con lai tuyệt đẹp của nhà Samsung</a></h3>
+                                    <h3 class="uk-card-title uk-text-uppercase"><a href="new-detail.php">Đánh giá chi tiết Galaxy Watch Active: Đứa con lai tuyệt đẹp của nhà Samsung</a></h3>
                                     <time>05 tgh 3 2019</time>
                                     <p>Galaxy Watch Active được Samsung giới thiệu vào sự kiện Unpacked 2019 và nó thực sự khiến mình thích thú so với những thứ còn lại của ngày hôm đó.</p>
                                 </div>
@@ -90,7 +90,7 @@
                     </div>
                     <div>
                         <div class="uk-card-body uk-padding-small">
-                            <h3 class="uk-card-title"><a href="#">Bộ Office trên Mac đã có icon mới, anh em Windows thì sao?</a></h3>
+                            <h3 class="uk-card-title"><a href="new-detail.php">Bộ Office trên Mac đã có icon mới, anh em Windows thì sao?</a></h3>
                             <time>05 tgh 3 2019</time>
                             <p>Hôm nay sau khi mình cập nhật bộ Office trên Mac thì thấy đã được dùng dàn biểu tượng mới đẹp quá, anh em trên Windows thì sao, anh em cập nhật phần mềm xem có chưa nhé.
                                 Người ta nói thay đổi cái icon là việc nhỏ, đây sẽ là bước đánh dấu để Microsoft thay đổi toàn diện UI, UX cho bộ Office.</p>

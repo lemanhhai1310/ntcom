@@ -1,6 +1,10 @@
 .card4{
   background-color: #262626;
   position: relative;
+  .uk-card-body{
+    position: relative;
+    z-index: 100;
+  }
   &:before{
     content: '';
     position: absolute;
@@ -36,6 +40,10 @@
 }
 .card5{
   position: relative;
+  .uk-card-body{
+    position: relative;
+    z-index: 100;
+  }
   &:before{
     content: '';
     position: absolute;
@@ -68,5 +76,56 @@
     overflow: hidden;
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
+  }
+}
+.box1_new{
+  h1{
+    font-family:'SVN-Gilroy Bold';
+    font-size: 26px;
+  }
+  .desc{
+    font-family:'Montserrat-SemiBold';
+    color: #000;
+  }
+  p{
+    &:not(.desc){
+      font-family:'Montserrat-Regular';
+      color: #000;
+    }
+  }
+}
+.time1{
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  padding: 8px 0;
+  time{
+    color: #8d8d8d;
+    font-size: 12px;
+  }
+}
+.new-rate{
+  i.fa{
+    font-size: 18px;
+  }
+  .fa-star{
+    color: #ffc628;
+  }
+  small{
+    font-size: 12px;
+  }
+}
+.comment{
+  padding: 15px 0;
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  .name{
+    font-family:'SVN-Gilroy Bold';
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+  p{
+    margin: 0;
+    font-family:'SVN-Gilroy Light';
   }
 }
