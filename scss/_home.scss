@@ -88,6 +88,33 @@
       }
     }
   }
+  .new-list &{
+    border: 1px solid #db3237;
+    border-radius: 4px;
+    color: #db3237;
+    background-color: #fff;
+    svg{
+
+    }
+    &.uk-slidenav-previous{
+      right: calc(100% - 50px);
+      @media(min-width: 960px){
+        right: calc(100% - 35px);
+      }
+      svg{
+
+      }
+    }
+    &.uk-slidenav-next{
+      left: calc(100% - 50px);
+      @media(min-width: 960px){
+        left: calc(100% - 35px);
+      }
+      svg{
+
+      }
+    }
+  }
 }
 .card3{
   .uk-card-title{

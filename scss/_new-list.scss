@@ -1,0 +1,61 @@
+.card4{
+  background-color: #262626;
+  position: relative;
+  &:before{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid #FFFFFF;
+    z-index: 10;
+  }
+  .uk-card-title{
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-family:'SVN-Gilroy Bold';
+    a{
+
+    }
+  }
+  time{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family:'SVN-Gilroy Light';
+  }
+  p{
+    font-family:'SVN-Gilroy Light';
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+  }
+}
+.card5{
+  .uk-card-title{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family:'SVN-Gilroy Bold';
+    margin-bottom: 5px;
+    a{
+      color: #000;
+    }
+  }
+  time{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family:'SVN-Gilroy Light';
+  }
+  p{
+    font-family:'SVN-Gilroy Light';
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+  }
+}
