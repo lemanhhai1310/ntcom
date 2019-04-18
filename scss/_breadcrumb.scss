@@ -4,6 +4,16 @@
 }
 .uk-breadcrumb{
   li{
+    &:nth-child(n+2){
+      &:not(.uk-first-column){
+        &:before{
+          content: "\f105";
+          font-family: FontAwesome;
+          margin: 0 10px;
+          color: #FFFFFF;
+        }
+      }
+    }
     a{
       color: #FFFFFF;
     }
