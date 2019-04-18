@@ -1,3 +1,4 @@
+<?php $body = '' ?>
 <?php include('header.php'); ?>
 <div class="block_breadcrumb">
     <div class="uk-container">

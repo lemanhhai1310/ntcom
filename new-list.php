@@ -1,3 +1,4 @@
+<?php $body = '' ?>
 <?php include('header.php'); ?>
 <div class="block_breadcrumb">
     <div class="uk-container">
@@ -35,9 +36,9 @@
                         );
                         foreach ($item as $key => $value) { ?>
                         <li>
-                            <div class="uk-card card4">
+                            <div class="uk-card card4 uk-transition-toggle">
                                 <div class="uk-cover-container">
-                                    <img src="<?php echo $value['src']; ?>" alt="" uk-cover>
+                                    <img style="top: inherit; left: inherit; object-fit: cover" class="uk-position-center uk-transition-scale-up uk-transition-opaque" src="<?php echo $value['src']; ?>" alt="" uk-cover>
                                     <canvas width="523" height="349"></canvas>
                                 </div>
                                 <div class="uk-card-body">
@@ -83,9 +84,9 @@
             );
             foreach ($item as $key => $value) { ?>
             <div>
-                <div class="uk-card card5 uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                    <div class="uk-card-media-left uk-cover-container">
-                        <img src="<?php echo $value['src']; ?>" alt="" uk-cover>
+                <div class="uk-card card5 uk-card-default uk-transition-toggle uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                    <div class="uk-cover-container">
+                        <img style="top: inherit; left: inherit; object-fit: cover" class="uk-position-center uk-transition-scale-up uk-transition-opaque" src="<?php echo $value['src']; ?>" alt="" uk-cover>
                         <canvas width="395" height="344"></canvas>
                     </div>
                     <div>
