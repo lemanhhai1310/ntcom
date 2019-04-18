@@ -1,0 +1,40 @@
+.card6{
+  background-color: #fff;
+  padding: 25px;
+  .uk-card-title{
+    font-family:'SVN-Gilroy Bold';
+    font-size: 18px;
+    margin-bottom: 10px;
+    a{
+      color: #3b3d3e;
+    }
+  }
+  p{
+    margin: 0;
+    margin-bottom: 10px;
+    font-family:'Montserrat-Medium';
+    font-size: 13px;
+  }
+  .uk-button{
+    text-transform: inherit;
+    font-family:'Montserrat-SemiBold';
+    background-color: #363939;
+    border-color: #363939;
+    font-size: 13px;
+  }
+  .uk-link{
+    font-family:'Montserrat-SemiBold';
+    color: #1c1d1d;
+    font-size: 13px;
+  }
+}
+.price_sp{
+  font-family:'Montserrat-Medium';
+  span{
+    color: #ee312e;
+    font-size: 16px;
+  }
+  del{
+    color: #868686;
+  }
+}

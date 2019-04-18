@@ -48,6 +48,31 @@
                 </div>
             </div>
         </div>
+        <h2 class="title_c uk-flex uk-flex-middle uk-flex-center uk-margin-medium">
+            <i class="fa fa-circle" aria-hidden="true"></i>
+            <span class="uk-margin-small-left uk-margin-small-right">Sản phẩm nên xem</span>
+            <i class="fa fa-circle" aria-hidden="true"></i>
+        </h2>
+        <div class="uk-grid-medium uk-child-width-1-3@m" uk-grid>
+            <?php
+            $item = array(
+                array(
+                    'src' => 'imgs/spbc/spbc1.jpg',
+                ),
+                array(
+                    'src' => 'imgs/spbc/spbc2.jpg',
+                ),
+                array(
+                    'src' => 'imgs/spbc/spbc3.jpg',
+                ),
+            );
+            foreach ($item as $key => $value) { ?>
+            <div>
+                <?php include('box_product.php'); ?>
+            </div>
+            <?php } ?>
+        </div>
+        <div class="uk-section-small"></div>
     </div>
 </div>
 <?php include('footer.php'); ?>
