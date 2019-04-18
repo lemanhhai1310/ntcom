@@ -1,3 +1,4 @@
+<?php $body = 'home' ?>
 <?php include('header.php'); ?>
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 1920:1002">
 

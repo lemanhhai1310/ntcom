@@ -4,14 +4,50 @@
       height: 30px;
     }
   }
+  img{
+    &.c1{
+      display: none;
+      .home &{
+        display: block;
+      }
+      .uk-sticky-fixed &{
+        display: none;
+      }
+    }
+    &.c2{
+      .home &{
+        display: none;
+      }
+      .uk-sticky-fixed &{
+        display: block;
+      }
+    }
+  }
 }
 #header{
   .uk-navbar-nav{
     >li{
       >a{
-        color: #ffffff;
         text-transform: inherit;
         font-size: 14.5px;
+        color: #000;
+        .home &{
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  .home &{
+    position: absolute;
+    width: 100%;
+  }
+  &.uk-sticky-fixed{
+    background-color: #fff;
+    .uk-navbar-nav{
+      >li{
+        >a{
+          color: #000;
+        }
       }
     }
   }

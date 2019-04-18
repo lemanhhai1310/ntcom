@@ -13,7 +13,7 @@
     <script src="assets/uikit-3.0.3/js/uikit.min.js"></script>
     <script src="assets/uikit-3.0.3/js/uikit-icons.min.js"></script>
 </head>
-<body>
+<body class="<?php echo $body; ?>">
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
 <script>
@@ -40,13 +40,16 @@
      theme_color="#24892d">
 </div>
 <section id="root" class="uk-height-viewport uk-offcanvas-content">
-<header id="header" class="uk-position-top uk-position-z-index">
+<header id="header" class="uk-position-z-index" uk-sticky="animation: uk-animation-slide-top; top: 100vh">
     <div class="uk-container">
         <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
 
             <div class="uk-navbar-left">
 
-                <a class="uk-navbar-item uk-logo" href="#"><img src="imgs/logo.png" alt=""></a>
+                <a class="uk-navbar-item uk-logo" href=".">
+                    <img class="c1" src="imgs/logo.png" alt="">
+                    <img class="c2" src="imgs/logo1.png" alt="">
+                </a>
 
             </div>
 
