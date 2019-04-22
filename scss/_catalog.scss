@@ -35,3 +35,31 @@
 
   }
 }
+.tab{
+  a{
+    color: #444444;
+    &.uk-active{
+      color: #980000;
+      display: inline-flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: #ccc;
+    }
+  }
+}
+.title_catalog{
+  font-family:'SVN-Gilroy Bold';
+  font-size: 18px;
+}
+.btn2{
+  border-radius: 18px;
+  background-color: #ebebeb;
+  border-color: #cdcccc;
+}

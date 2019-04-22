@@ -99,7 +99,7 @@
                         <div class="uk-inline-clip uk-width-1-1" tabindex="1">
                             <div class="uk-background-contain uk-background-center-center uk-transition-scale-up uk-transition-opaque box_img" style="background-image: url(<?php echo $value['src']; ?>); padding-top: 53%;"></div>
                         </div>
-                        <h3 class="uk-card-title"><a href="#"><?php echo $value['title']; ?></a></h3>
+                        <h3 class="uk-card-title"><a href="catalog.php"><?php echo $value['title']; ?></a></h3>
                         <hr class="uk-divider-small">
                     </div>
                 </div>
