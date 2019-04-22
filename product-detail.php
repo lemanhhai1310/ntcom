@@ -1,6 +1,6 @@
 <?php $body = '' ?>
 <?php include('header.php'); ?>
-<div class="block_breadcrumb" uk-sticky="offset: 80; top: 60vh; animation: uk-animation-slide-top; media: 640;">
+<div class="block_breadcrumb" uk-sticky="offset: 80; top: 55vh; animation: uk-animation-slide-top; media: 640;">
     <div class="uk-container">
         <div class="uk-flex uk-flex-middle uk-flex-between">
             <ul class="uk-breadcrumb uk-margin-remove">
@@ -257,6 +257,35 @@
                         <div class="uk-margin uk-flex uk-flex-between box2_ctsp">
                             <span>0/500 ký tự</span>
                             <button type="submit" class="uk-button uk-button-danger uk-width-small">Gửi</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h5 class="title_kh">1 đánh giá từ khách hàng</h5>
+            <div class="uk-padding-small card8">
+                <div class="uk-grid-small" uk-grid>
+                    <div class="uk-width-auto">
+                        <div class="uk-cover-container">
+                            <img class="uk-border-circle" src="https://scontent.fhan4-1.fna.fbcdn.net/v/t1.0-9/53189234_1027192717473217_4973914510675935232_n.jpg?_nc_cat=105&_nc_oc=AQnrgSTz_zNKg_O_zyD1ip65-ytI-qYTcSx56ERKPvdrBKswCwjNGn1yhYSonRK6KNY&_nc_ht=scontent.fhan4-1.fna&oh=b8d3fa4ed446e2075d9ff9d1c461d7d2&oe=5D438FE1" alt="" uk-cover>
+                            <canvas width="45" height="45"></canvas>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand">
+                        <div uk-grid>
+                            <div class="uk-width-auto@s">
+                                <h5 class="uk-margin-remove name_cm">Như Ý</h5>
+                                <time>09/07/2018 09:25</time>
+                            </div>
+                            <div class="uk-width-expand@s">
+                                <div class="rate1">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                <p class="uk-margin-remove">Tiki giao hàng sớm hơn dự tính. Đóng gói chắc chắn, sản phẩm chuẩn luôn ko có gì để phàn nàn!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
