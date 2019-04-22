@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77a71a9f-c9b3-4827-91f6-cb1190b1fad9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/catalog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_catalog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/product-detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_product_detail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_product_detail.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,19 +39,32 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_fonts.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="32" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/product-detail.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="220">
+                  <caret line="139" column="24" lean-forward="true" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
+                  <folding>
+                    <element signature="e#7070#14002#0#HTML" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/product-detail.php">
+            <entry file="file://$PROJECT_DIR$/catalog.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="625">
-                  <caret line="286" column="58" selection-start-line="286" selection-start-column="58" selection-end-line="286" selection-end-column="58" />
+                <state relative-caret-position="330">
+                  <caret line="108" column="44" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
                   <folding>
-                    <element signature="e#7070#14002#0#HTML" />
+                    <element signature="e#96#127#0#HTML" expanded="true" />
+                    <element signature="e#730#771#0#HTML" />
                   </folding>
                 </state>
               </provider>
@@ -57,8 +73,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="284">
-                  <caret line="46" column="93" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="93" />
+                <state relative-caret-position="429">
+                  <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
                 </state>
               </provider>
             </entry>
@@ -70,8 +86,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/layout.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+                <state relative-caret-position="105">
+                  <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/_catalog.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -86,15 +111,6 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/_new-list.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1605">
-                  <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_box_product.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="225">
@@ -103,11 +119,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_product_detail.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="595">
-                  <caret line="182" column="32" selection-start-line="182" selection-start-column="32" selection-end-line="182" selection-end-column="32" />
+                <state relative-caret-position="220">
+                  <caret line="160" column="1" lean-forward="true" selection-start-line="160" selection-start-column="1" selection-end-line="160" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -168,6 +184,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>table1</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -190,12 +211,14 @@
         <option value="$PROJECT_DIR$/new-detail.php" />
         <option value="$PROJECT_DIR$/scss/_box_product.scss" />
         <option value="$PROJECT_DIR$/box_product.php" />
-        <option value="$PROJECT_DIR$/scss/layout.scss" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/scss/_slide-detail.scss" />
         <option value="$PROJECT_DIR$/slide-detail.php" />
         <option value="$PROJECT_DIR$/scss/_product_detail.scss" />
         <option value="$PROJECT_DIR$/product-detail.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/scss/layout.scss" />
+        <option value="$PROJECT_DIR$/scss/_catalog.scss" />
+        <option value="$PROJECT_DIR$/catalog.php" />
       </list>
     </option>
   </component>
@@ -308,18 +331,18 @@
       <workItem from="1555473047902" duration="14765000" />
       <workItem from="1555520799304" duration="590000" />
       <workItem from="1555586481692" duration="14237000" />
-      <workItem from="1555908065219" duration="11940000" />
+      <workItem from="1555908065219" duration="13633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47734000" />
+    <option name="totallyTimeSpent" value="49427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="826" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14306152" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14306152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -504,13 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/box_product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -539,33 +555,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
+    <entry file="file://$PROJECT_DIR$/product-detail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="46" column="93" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="93" />
+        <state relative-caret-position="220">
+          <caret line="139" column="24" lean-forward="true" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
+          <folding>
+            <element signature="e#7070#14002#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_fonts.scss">
+    <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="32" />
+        <state relative-caret-position="429">
+          <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_product_detail.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="182" column="32" selection-start-line="182" selection-start-column="32" selection-end-line="182" selection-end-column="32" />
+        <state relative-caret-position="220">
+          <caret line="160" column="1" lean-forward="true" selection-start-line="160" selection-start-column="1" selection-end-line="160" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-detail.php">
+    <entry file="file://$PROJECT_DIR$/scss/layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="286" column="58" selection-start-line="286" selection-start-column="58" selection-end-line="286" selection-end-column="58" />
+        <state relative-caret-position="105">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_catalog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="108" column="44" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
           <folding>
-            <element signature="e#7070#14002#0#HTML" />
+            <element signature="e#96#127#0#HTML" expanded="true" />
+            <element signature="e#730#771#0#HTML" />
           </folding>
         </state>
       </provider>

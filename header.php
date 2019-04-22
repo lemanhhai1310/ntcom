@@ -92,7 +92,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="catalog.php">Sản phẩm</a></li>
                     <li><a href="#">Giải pháp</a></li>
                     <li><a href="#">Hỗ trợ</a></li>
                     <li><a href="#"><span uk-icon="search"></span></a></li>
