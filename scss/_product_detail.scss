@@ -81,3 +81,80 @@
     border-radius: 4px;
   }
 }
+.title1{
+  font-size: 28px;
+  font-family:'SVN-Gilroy Light';
+}
+.rate1{
+  font-family:'SVN-Gilroy Light';
+  i.fa{
+    color: #f5a621;
+  }
+  span{
+    color: #f5a621;
+  }
+  a{
+
+  }
+}
+.table1{
+  tr{
+    td{
+      &:first-child{
+        padding-left: 0;
+      }
+      b{
+        color: #000;
+        font-family:'SVN-Gilroy Bold';
+      }
+      &:last-child{
+        font-family:'SVN-Gilroy Light';
+      }
+    }
+  }
+}
+.select_size{
+  input{
+    &:checked + span{
+      border-color: #ef0505;
+      //color: #ef0505;
+      position: relative;
+      &:before{
+        content: "\f00c";
+        position: absolute;
+        bottom: 0;
+        right: 2px;
+        font-size: 8px;
+        font-family: 'FontAwesome';
+        z-index: 100;
+        color: #FFFFFF;
+      }
+      &:after{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 0 20px 20px;
+        border-color: transparent transparent #ef0505 transparent;
+      }
+    }
+  }
+  span{
+    border: 1px solid #e1e1e1;
+    display: inline-block;
+    padding: 4px 11px;
+    color: #111111;
+    font-family: 'Helvetica Neue Regular';
+    font-size: 14px;
+    cursor: pointer;
+  }
+}
+.btn1{
+  max-width: 60%;
+  background-color: #e53935;
+  border-color: #e53935;
+  border-radius: 4px;
+}
