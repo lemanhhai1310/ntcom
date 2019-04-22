@@ -1,12 +1,25 @@
 <?php $body = '' ?>
 <?php include('header.php'); ?>
-<div class="block_breadcrumb">
+<div class="block_breadcrumb" uk-sticky="offset: 80; top: 60vh; animation: uk-animation-slide-top; media: 640;">
     <div class="uk-container">
-        <ul class="uk-breadcrumb">
-            <li><a href="#">Trang chủ</a></li>
-            <li><a href="#">Sản phẩm</a></li>
-            <li><span>CISCO1941W-N/K9</span></li>
-        </ul>
+        <div class="uk-flex uk-flex-middle uk-flex-between">
+            <ul class="uk-breadcrumb uk-margin-remove">
+                <li><span>CISCO1941W-N/K9</span></li>
+            </ul>
+            <nav class="uk-navbar-container uk-navbar-transparent nav1" uk-navbar>
+                <div class="uk-navbar-left">
+
+                    <ul class="uk-navbar-nav" uk-scrollspy-nav="closest: li; scroll: true; offset: 140;">
+                        <li><a href="#mota">mô tả</a></li>
+                        <li><a href="#dacdiemkt">đặc điểm kỹ thuật</a></li>
+                        <li><a href="#nhanxet">nhận xét</a></li>
+                        <li><a href="#">tải về</a></li>
+                        <li><a href="#">liên hệ</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
     </div>
 </div>
 <div class="uk-section-small" style="background-color: #fff;">
@@ -67,7 +80,7 @@
 <div class="uk-section-small">
     <div class="uk-container">
         <div class="uk-padding-small box1_sp" style="background-color: #FFFFFF;">
-            <h4 class="title_tskt uk-text-uppercase uk-margin">mô tả sản phẩm</h4>
+            <h4 id="mota" class="title_tskt uk-text-uppercase uk-margin">mô tả sản phẩm</h4>
             <article>
                 <p>Với thiết kế đơn giản nhưng lại rất tinh tế, cùng với độ phủ sóng rộng mà cài đặt lại dễ dàng, Thiết bị mạng Linksys WHW0303 là một sự lựa chọn tốt cho các hộ gia đình, căn biệt thự và thậm chí cả những văn phòng với không gian lớn nhờ những công nghệ hỗ trợ tiên tiến.</p>
                 <p>Sản phẩm gồm 3 thiết bị giống nhau, được cấu tạo giống kiểu loa bluetooth với kết cấu hình hộp trắng, đế cao su và đi kèm những lỗ thông hơi trên bề mặt. Với thiết kế bên ngoài như vậy, sản phẩm không chỉ đảm bảo được độ bền mà còn giúp tản nhiệt hiệu quả hơn để sản phẩm không quá nóng khi phải hoạt động liên tục trong khoảng thời gian dài.</p>
@@ -83,7 +96,7 @@
                 </figure>
                 <p>Cuối cùng và cũng là điểm nhấn đáng chú ý ở Thiết bị mạng Linksys WHW0303, ta có công nghệ Seamless Roaming giúp chuyển kết nối tới những điểm phát sóng mạnh hơn, cho phép chuyển vùng không gián đoạn để trải nghiệm live stream hay đơn giản là xem video của bạn vẫn được giữ nguyên vẹn ngay cả khi đang di chuyển.</p>
             </article>
-            <h4 class="title_tskt uk-text-uppercase uk-margin">đặc điểm kỹ thuật</h4>
+            <h4 id="dacdiemkt" class="title_tskt uk-text-uppercase uk-margin">đặc điểm kỹ thuật</h4>
             <div class="uk-overflow-auto">
                 <table class="uk-table uk-table-striped">
                     <tbody>
@@ -126,7 +139,7 @@
                     </tbody>
                 </table>
             </div>
-            <h4 class="title_tskt uk-text-uppercase uk-margin">nhận xét</h4>
+            <h4 id="nhanxet" class="title_tskt uk-text-uppercase uk-margin">nhận xét</h4>
             <div class="uk-child-width-1-2@m uk-grid-medium" uk-grid>
                 <div>
                     <h4 class="title_rate uk-margin-remove">Đánh giá tổng quan</h4>
