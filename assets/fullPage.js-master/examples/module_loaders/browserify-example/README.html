@@ -1,0 +1,39 @@
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <title>README.md</title>
+      </head>
+      <body>
+        <h1 id="browserify-example-for-fullpage-js">Browserify example for fullPage.js</h1>
+<h3 id="creating-the-bundle-file">Creating the bundle file</h3>
+<p>In order to create the bundle file <code>main.js</code> run the following command inside the root folder:</p>
+<pre><code class="lang-sh">npm run build
+</code></pre>
+<p>Then run:</p>
+<pre><code class="lang-sh">npm run build
+</code></pre>
+<p>Which runs the comand specified in <code>package.json</code>:</p>
+<pre><code class="lang-sh">browserify src/index.js &gt; dist/main.js
+</code></pre>
+<h3 id="importing-files">Importing files</h3>
+<pre><code class="lang-javascript">// Optional. When using fullPage extensions
+//require(&#39;./fullpage.scrollHorizontally.min&#39;);
+
+// Optional. When using scrollOverflow:true
+//require(&#39;fullpage.js/vendors/scrolloverflow&#39;);
+
+var fullpage = require(&#39;fullpage.js&#39;);
+
+// When using fullPage extensions replace the previos require
+// of fullpage.js for this file
+//var fullpage = require(&#39;fullpage.js/dist/fullpage.extensions.min&#39;);
+
+// Initializing it
+var fullPageInstance = new fullpage(&#39;#myFullpage&#39;, {
+    navigation: true,
+    sectionsColor:[&#39;#ff5f45&#39;, &#39;#0798ec&#39;, &#39;#fc6c7c&#39;, &#39;grey&#39;]
+});
+</code></pre>
+
+      </body>
+    </html>

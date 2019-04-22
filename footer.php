@@ -88,6 +88,7 @@
                     <li><a href="#">Liên hệ chúng tôi</a></li>
                     <li><a href="#">Tuyển dụng</a></li>
                     <li><a href="#">Hỏi đáp</a></li>
+                    <li><a href="landingpage.php">Landingpage</a></li>
                 </ul>
             </div>
             <div class="uk-width-auto@m">

@@ -9,13 +9,22 @@
     <link rel="stylesheet" href="assets/uikit-3.0.3/css/uikit.min.css">
     <link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <?php if(isset($landingpage)) { ?>
+    <link rel="stylesheet" href="assets/fullPage.js-master/dist/fullpage.min.css">
+    <?php } ?>
     <link rel="stylesheet" href="css/layout.css">
+    <?php if(isset($landingpage)) { ?>
+    <link rel="stylesheet" href="css/landingpage.css">
+    <?php } ?>
     <!--JS-->
     <script src="assets/jquery/jquery-3.3.1.js"></script>
     <script src="assets/uikit-3.0.3/js/uikit.min.js"></script>
     <script src="assets/uikit-3.0.3/js/uikit-icons.min.js"></script>
     <script src="assets/auxiliary-rater-0831401/rater.min.js"></script>
     <script src="assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <?php if(isset($landingpage)) { ?>
+    <script src="assets/fullPage.js-master/dist/fullpage.min.js"></script>
+    <?php } ?>
     <script src="js/main.js"></script>
 </head>
 <body class="<?php echo $body; ?>">

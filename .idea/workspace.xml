@@ -2,15 +2,182 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77a71a9f-c9b3-4827-91f6-cb1190b1fad9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mobile_menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_mobile_menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/BACKERS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/dist/fullpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/dist/fullpage.extensions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/dist/fullpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/dist/fullpage.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/dist/fullpage.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/dist/fullpage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/dist/fullpage.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/active-slide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/auto-height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/autoplay-video-and-audio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/background-video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/backgrounds-fixed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/backgrounds.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/callbacks-v2-compatible.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/callbacks-v3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/continuous-horizontal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/continuous-vertical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/css3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/drag-and-move.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/easing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/examples.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/examples.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/fading-effect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/fixed-headers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/gradient-backgrounds.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/bg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/bg5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/compatible.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/copyright.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/en-language-inactive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/en-language.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/es-language-inactive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/es-language.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/example2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/flowers.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/flowers.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/fullPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/horse.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/horse.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/intro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/iphone-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/iphone-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/iphone-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/iphone-two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/iphone-yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/iphone1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/iphone2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/iphone3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/iphone4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/slider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/tablets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/imgs/used-by-fullpage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/interlocked-slides.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/jquery-adapter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/lazy-load.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/looping.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/module_loaders/browserify-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/module_loaders/browserify-example/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/module_loaders/browserify-example/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/module_loaders/browserify-example/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/module_loaders/browserify-example/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/module_loaders/requirejs-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/module_loaders/requirejs-example/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/module_loaders/requirejs-example/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/module_loaders/requirejs-example/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/module_loaders/requirejs-example/src/require.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/module_loaders/webpack-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/module_loaders/webpack-example/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/module_loaders/webpack-example/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/module_loaders/webpack-example/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/module_loaders/webpack-example/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/module_loaders/webpack-example/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/navigation-horizontal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/navigation-tooltips.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/navigation-vertical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/no-anchor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/normal-scroll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/normalScrollElements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/offset-sections.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/one-section.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/parallax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/reset-sliders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/responsive-auto-height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/responsive-height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/responsive-slides.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/responsive-width.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/scroll-horizontally.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/scrollBar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/scrollOverflow-old.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/scrollOverflow-reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/scrollOverflow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/scrolling-speed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/trigger-animations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/examples/vue-fullpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/lang/chinese/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/lang/chinese/how-to-activate-fullpage-extension.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/lang/chinese/parallax-extensionmd.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/lang/korean/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/lang/korean/how-to-activate-fullpage-extension.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/lang/korean/parallax-extension.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/lang/russian/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/lang/russian/how-to-activate-fullpage-extension.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/lang/russian/parallax-extension.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/lang/spanish/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/lang/spanish/how-to-activate-fullpage-extension.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/lang/spanish/parallax-extension.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/src/fullpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/src/fullpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/arrows.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/bigSectionsDestination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/callbacks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/callbacksV3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/continuousVertical.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/destroy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/displayWarnings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/easingcss3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/fitToSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/fixedElements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/keyboardScrolling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/lazyload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/lockAnchors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/loopBottom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/loopTop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/moveSectionDown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/moveSectionUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/moveSlideLeft.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/moveSlideRight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/moveTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/normalScrollElements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/paddings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/recordHistory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/responsiveHeight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/responsiveWidth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/scrollBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/scrollingSpeed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/sectionsColor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/setAllowScrolling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/setAutoScrolling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/silentMoveTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/slidesNavigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/unit/verticalCentered.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/tests/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/vendors/easings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/vendors/easings.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/vendors/easings.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/vendors/scrolloverflow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/vendors/scrolloverflow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fullPage.js-master/vendors/scrolloverflow.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landingpage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/landingpage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,34 +193,34 @@
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="118">
-                  <caret line="101" column="56" lean-forward="true" selection-start-line="101" selection-start-column="56" selection-end-line="101" selection-end-column="56" />
+                  <caret line="101" column="56" selection-start-line="101" selection-start-column="56" selection-end-line="101" selection-end-column="56" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/landingpage.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+                <state relative-caret-position="180">
+                  <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/_fonts.scss">
+            <entry file="file://$PROJECT_DIR$/footer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="36" />
+                <state relative-caret-position="1545">
+                  <caret line="103" column="30" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -66,25 +233,30 @@
             <entry file="file://$PROJECT_DIR$/scss/layout.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="90">
-                  <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+                  <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/_mobile_menu.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/scss/_mobile_menu.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-                </state>
-              </provider>
+            <entry file="file://$PROJECT_DIR$/scss/landingpage.scss">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_catalog.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="204">
-                  <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+                  <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -93,7 +265,7 @@
             <entry file="file://$PROJECT_DIR$/scss/_slide-detail.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="165">
-                  <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+                  <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -111,16 +283,7 @@
             <entry file="file://$PROJECT_DIR$/scss/_product_detail.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="220">
-                  <caret line="160" column="1" lean-forward="true" selection-start-line="160" selection-start-column="1" selection-end-line="160" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/_commons.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+                  <caret line="160" column="1" selection-start-line="160" selection-start-column="1" selection-end-line="160" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -147,7 +310,7 @@
             <entry file="file://$PROJECT_DIR$/scss/_header.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="339">
-                  <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+                  <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -176,7 +339,6 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/_footer.scss" />
-        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/scss/_menu_hover_sub.scss" />
         <option value="$PROJECT_DIR$/scss/_commons.scss" />
         <option value="$PROJECT_DIR$/scss/_breadcrumb.scss" />
@@ -197,9 +359,12 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/scss/_header.scss" />
         <option value="$PROJECT_DIR$/scss/layout.scss" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/scss/_mobile_menu.scss" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/scss/landingpage.scss" />
+        <option value="$PROJECT_DIR$/landingpage.php" />
+        <option value="$PROJECT_DIR$/header.php" />
       </list>
     </option>
   </component>
@@ -233,13 +398,13 @@
               <item name="html.ntcom" type="b2602c69:ProjectViewProjectNode" />
               <item name="html.ntcom" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="OwlCarousel2-2.3.4" type="462c0819:PsiDirectoryNode" />
+              <item name="fullPage.js-master" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="html.ntcom" type="b2602c69:ProjectViewProjectNode" />
               <item name="html.ntcom" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="OwlCarousel2-2.3.4" type="462c0819:PsiDirectoryNode" />
+              <item name="fullPage.js-master" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -274,14 +439,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/scss" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/scss" />
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/scss" />
       <recent name="$PROJECT_DIR$/fonts/Montserrat" />
       <recent name="$PROJECT_DIR$/fonts/SVN-Gilroy" />
     </key>
@@ -312,12 +478,12 @@
       <workItem from="1555473047902" duration="14765000" />
       <workItem from="1555520799304" duration="590000" />
       <workItem from="1555586481692" duration="14237000" />
-      <workItem from="1555908065219" duration="17891000" />
+      <workItem from="1555908065219" duration="19421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53685000" />
+    <option name="totallyTimeSpent" value="55215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="826" extended-state="6" />
@@ -403,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../html.tsc/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -483,7 +642,7 @@
     <entry file="file://$PROJECT_DIR$/scss/_slide-detail.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -504,7 +663,7 @@
     <entry file="file://$PROJECT_DIR$/scss/_product_detail.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="160" column="1" lean-forward="true" selection-start-line="160" selection-start-column="1" selection-end-line="160" selection-end-column="1" />
+          <caret line="160" column="1" selection-start-line="160" selection-start-column="1" selection-end-line="160" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -548,14 +707,14 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
-          <caret line="101" column="56" lean-forward="true" selection-start-line="101" selection-start-column="56" selection-end-line="101" selection-end-column="56" />
+          <caret line="101" column="56" selection-start-line="101" selection-start-column="56" selection-end-line="101" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_catalog.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -569,7 +728,7 @@
     <entry file="file://$PROJECT_DIR$/scss/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -587,31 +746,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/layout.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_mobile_menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        <state relative-caret-position="480">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1545">
+          <caret line="103" column="30" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_mobile_menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../html.hanoipharmar/hnp_html/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2181" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../html.hanoipharmar/hnp_html/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1491" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../html.hanoipharmar/hnp_html/news-detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2001" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../html.nguyenkim/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7041">
+          <folding>
+            <element signature="n#style#0;n#path#0;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#svg#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/landingpage.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landingpage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
     </entry>
