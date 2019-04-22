@@ -16,6 +16,7 @@
     <script src="assets/uikit-3.0.3/js/uikit-icons.min.js"></script>
     <script src="assets/auxiliary-rater-0831401/rater.min.js"></script>
     <script src="assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body class="<?php echo $body; ?>">
 <!-- Load Facebook SDK for JavaScript -->
@@ -60,8 +61,8 @@
             <div class="uk-navbar-right">
 
                 <ul class="uk-navbar-nav">
-                    <li class="uk-active"><a href="#">Trang chủ</a></li>
-                    <li>
+                    <li class="uk-active uk-visible@m"><a href="#">Trang chủ</a></li>
+                    <li class="uk-visible@m">
                         <a href="#">Về NTCOM</a>
                         <div class="uk-navbar-dropdown uk-margin-remove uk-padding-remove" uk-dropdown="animation: uk-animation-slide-bottom-small; duration: 300">
                             <ul class="uk-nav uk-navbar-dropdown-nav">
@@ -92,15 +93,49 @@
                             </ul>
                         </div>
                     </li>
-                    <li><a href="catalog.php">Sản phẩm</a></li>
-                    <li><a href="#">Giải pháp</a></li>
-                    <li><a href="#">Hỗ trợ</a></li>
-                    <li><a href="#"><span uk-icon="search"></span></a></li>
+                    <li class="uk-visible@m"><a href="catalog.php">Sản phẩm</a></li>
+                    <li class="uk-visible@m"><a href="#">Giải pháp</a></li>
+                    <li class="uk-visible@m"><a href="#">Hỗ trợ</a></li>
+                    <li class="uk-visible@s">
+                        <a href="tel: 02871079279">
+                            <i class="fa fa-phone phone1" aria-hidden="true"></i>
+                            <span class="uk-text-middle uk-margin-small-left">02871.079.279</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="uk-navbar-toggle" href="#" uk-search-icon></a>
+                        <div class="uk-navbar-dropdown search_h" uk-drop="mode: click; cls-drop: uk-navbar-dropdown; boundary: !nav">
+
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-expand">
+                                    <form class="uk-search uk-search-navbar uk-width-1-1">
+                                        <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+                                    </form>
+                                </div>
+                                <div class="uk-width-auto">
+                                    <a class="uk-navbar-dropdown-close" href="#" uk-close></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
                     <li><a href="#"><span uk-icon="user"></span></a></li>
+                    <li class="uk-hidden@s">
+                        <a href="#" class="uk-padding-remove-right">
+                            <div id="mobile_menu_toggler">
+                                <div id="m_nav_menu" class="m_nav">
+                                    <div class="m_nav_ham button_closed" id="m_ham_1"></div>
+                                    <div class="m_nav_ham button_closed" id="m_ham_2"></div>
+                                    <div class="m_nav_ham button_closed" id="m_ham_3"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
 
             </div>
 
         </nav>
     </div>
+    <?php include('mobile_menu.php'); ?>
 </header>

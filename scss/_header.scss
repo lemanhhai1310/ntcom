@@ -54,3 +54,23 @@
     }
   }
 }
+.phone1{
+  background-color: #32acfa;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #FFFFFF;
+  & + span{
+    font-family:'Montserrat-SemiBold';
+  }
+}
+.uk-search{
+
+}
+.search_h{
+  width: 300px;
+}
