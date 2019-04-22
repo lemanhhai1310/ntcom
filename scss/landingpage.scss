@@ -1,4 +1,69 @@
 .box1_ld{
   padding-left: 70px;
-
+  h2{
+    font-family:'Montserrat-Bold';
+    color: #FFFFFF;
+  }
+  p{
+    font-family:'Montserrat-Medium';
+    color: #FFFFFF;
+  }
+}
+.btn3{
+  border-radius: 6px;
+  font-family:'SVN-Gilroy Bold';
+  background-image: linear-gradient(to right, #39c006 , #03c2a1);
+}
+.box2_ld{
+  h2{
+    font-family:'Montserrat-Bold';
+    font-size: 26px;
+    div{
+      font-size: 20px;
+    }
+  }
+  p{
+    font-family:'Montserrat-Medium';
+  }
+}
+.list1_ld{
+  li{
+    font-family:'Montserrat-Medium';
+    color: #080808;
+    padding-left: 30px;
+    position: relative;
+    .uk-icon{
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: #44c17a;
+    }
+  }
+}
+.block1{
+  background-color: #1821ac;
+}
+.block2{
+  background-color: #1720ab;
+}
+.box3_ld{
+  h2{
+    font-family:'Montserrat-SemiBold';
+    color: #FFFFFF;
+  }
+  p{
+    font-family:'Montserrat-Medium';
+    color: #FFFFFF;
+  }
+}
+.box11{
+  p{
+    font-family:'Montserrat-Medium';
+  }
+}
+.b_img{
+  transform: scale(0.7);
+}
+.block3{
+  background-color: #191eae;
 }
