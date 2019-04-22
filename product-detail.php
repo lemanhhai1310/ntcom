@@ -11,8 +11,134 @@
 </div>
 <div class="uk-section-small">
     <div class="uk-container">
-        <div class="uk-padding" style="background-color: #FFFFFF;">
+        <div class="uk-padding-small box1_sp" style="background-color: #FFFFFF;">
+            <h4 class="title_tskt uk-text-uppercase uk-margin">mô tả sản phẩm</h4>
+            <h4 class="title_tskt uk-text-uppercase uk-margin">đặc điểm kỹ thuật</h4>
+            <div class="uk-overflow-auto">
 
+            </div>
+            <h4 class="title_tskt uk-text-uppercase uk-margin">nhận xét</h4>
+            <div class="uk-child-width-1-2@m uk-grid-medium" uk-grid>
+                <div>
+                    <h4 class="title_rate uk-margin-remove">Đánh giá tổng quan</h4>
+                    <div class="uk-text-center diemdanhgia uk-margin">
+                        <div><span>5</span></div>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <div class="uk-grid uk-flex-middle line_pro uk-margin-small">
+                        <div class="uk-width-auto">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <div class="uk-width-expand">
+                            <progress id="js-progressbar" class="uk-progress" value="100" max="100"></progress>
+                        </div>
+                        <div class="uk-width-auto">
+                            <div class="txt_phantram uk-text-right">
+                                100%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-grid uk-flex-middle line_pro uk-margin-small">
+                        <div class="uk-width-auto">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="uk-width-expand">
+                            <progress id="js-progressbar" class="uk-progress" value="0" max="100"></progress>
+                        </div>
+                        <div class="uk-width-auto">
+                            <div class="txt_phantram uk-text-right">
+                                0%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-grid uk-flex-middle line_pro uk-margin-small">
+                        <div class="uk-width-auto">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="uk-width-expand">
+                            <progress id="js-progressbar" class="uk-progress" value="0" max="100"></progress>
+                        </div>
+                        <div class="uk-width-auto">
+                            <div class="txt_phantram uk-text-right">
+                                0%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-grid uk-flex-middle line_pro uk-margin-small">
+                        <div class="uk-width-auto">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="uk-width-expand">
+                            <progress id="js-progressbar" class="uk-progress" value="0" max="100"></progress>
+                        </div>
+                        <div class="uk-width-auto">
+                            <div class="txt_phantram uk-text-right">
+                                0%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-grid uk-flex-middle line_pro uk-margin-small">
+                        <div class="uk-width-auto">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="uk-width-expand">
+                            <progress id="js-progressbar" class="uk-progress" value="0" max="100"></progress>
+                        </div>
+                        <div class="uk-width-auto">
+                            <div class="txt_phantram uk-text-right">
+                                0%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-padding-small card7">
+                        <h4 class="title_rate uk-margin-remove">Viết đánh giá</h4>
+                        <div class="uk-flex-middle uk-flex uk-flex-between" uk-grid>
+                            <div class="uk-width-auto@s">
+                                <span>Đánh giá</span>
+                            </div>
+                            <div class="uk-width-auto@s">
+                                <div class="rating" data-rate-value=6></div>
+                                <script>
+                                    $(".rating").rate();
+                                </script>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <textarea class="uk-textarea" rows="5" placeholder="Mời bạn viết đánh giá về sản phẩm này, vui lòng viết tiếng Việt có dấu..."></textarea>
+                        </div>
+                        <div class="uk-margin uk-flex uk-flex-between box2_ctsp">
+                            <span>0/500 ký tự</span>
+                            <button type="submit" class="uk-button uk-button-danger uk-width-small">Gửi</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <h2 class="title_c uk-flex uk-flex-middle uk-flex-center uk-margin-medium">
             <i class="fa fa-circle" aria-hidden="true"></i>
