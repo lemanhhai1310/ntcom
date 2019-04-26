@@ -102,3 +102,43 @@
     font-family:'Montserrat-Regular';
   }
 }
+.block4{
+  background-color: #181ead;
+  .uk-input,
+  .uk-textarea{
+    background-color: #2429b2;
+    border-color: #2429b2;
+  }
+}
+.title_regis{
+  color: #FFFFFF;
+  font-family:'Montserrat-Bold';
+  font-size: 28px;
+}
+.btn4{
+  text-transform: capitalize;
+  background-color: #eed421;
+  border-color: #eed421;
+  color: #000;
+}
+.card11{
+  padding: 30px;
+  border-radius: 8px;
+  >div{
+    padding-top: 40%;
+  }
+}
+.box12{
+  h3{
+    font-family:'Montserrat-SemiBold';
+  }
+  p{
+    font-family:'Montserrat-SemiBold';
+    color: #000;
+  }
+  .uk-button{
+    background-color: #fff;
+    border-radius: 22px;
+    font-family:'Montserrat-Medium';
+  }
+}

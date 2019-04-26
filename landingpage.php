@@ -202,7 +202,53 @@
         </div>
     </div>
 </div>
-<div>
-
+<div class="uk-section block4">
+    <div class="uk-container uk-container-small">
+        <h2 class="title_regis uk-text-center uk-text-uppercase uk-margin">đăng ký dùng thử</h2>
+        <form class="uk-grid-medium uk-flex-center" uk-grid>
+            <div class="uk-width-1-2@s">
+                <input class="uk-input" type="text" placeholder="50">
+            </div>
+            <div class="uk-width-1-2@s">
+                <input class="uk-input" type="text" placeholder="25">
+            </div>
+            <div class="uk-width-1-2@s">
+                <input class="uk-input" type="text" placeholder="50">
+            </div>
+            <div class="uk-width-1-2@s">
+                <input class="uk-input" type="text" placeholder="25">
+            </div>
+            <div class="uk-width-1-1">
+                <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+            </div>
+            <div class="uk-width-auto@s">
+                <button type="submit" class="uk-button uk-button-primary btn4">send message</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-flex-middle" uk-grid>
+            <div class="uk-width-1-3@m">
+                <div class="uk-text-center box12">
+                    <h3>Đối tác</h3>
+                    <p>Trở thành đối tác của chúng tôi?</p>
+                    <a href="#" class="uk-button uk-button-default">liên hệ ngay</a>
+                </div>
+            </div>
+            <div class="uk-width-expand@m">
+                <div class="uk-grid-small uk-child-width-1-3@m" uk-grid>
+                    <?php for ($i=1; $i<=9; $i++) { ?>
+                    <div>
+                        <div class="uk-card card11 uk-card-default uk-height-1-1">
+                            <div class="uk-background-contain" style="background-image: url(imgs/landingpage/brand<?php echo $i; ?>.png);"></div>
+                        </div>
+                    </div>
+                    <?php } ?>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <?php include('footer.php'); ?>
