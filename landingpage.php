@@ -188,6 +188,21 @@
     </div>
 </div>
 <div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-child-width-1-2@m uk-flex-middle" uk-grid>
+            <div>
+                <div class="card10">
+                    <h2>Đảm bảo an toàn điện tuyệt đối</h2>
+                    <p>Thiết bị của NTCOM lắp đặt trên hệ thống điện dân dụng bình thường sẵn có theo thiết kế của chủ nhà. Sửa chữa và thay thế dễ dàng mà không cần đục phá tường hay thay đổi hệ thống dây điện đi âm trong tường. </p>
+                </div>
+            </div>
+            <div>
+                <iframe width="100%" height="350" src="https://www.youtube.com/embed/ve5dzfKvQ6A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
 
 </div>
 <?php include('footer.php'); ?>

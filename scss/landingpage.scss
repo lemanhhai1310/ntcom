@@ -86,3 +86,19 @@
 .desc_kh_rate_txt{
   font-family:'Montserrat-Regular';
 }
+.card10{
+  padding: 40px;
+  color: #FFFFFF;
+  @media(min-width: 960px){
+    padding-right: 80px;
+    height: 400px;
+    margin-right: -100px;
+  }
+  background-image: linear-gradient(to right, #0190cf, #17c6b3, #28f09d);
+  h2{
+    color: #FFFFFF;
+  }
+  p{
+    font-family:'Montserrat-Regular';
+  }
+}

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77a71a9f-c9b3-4827-91f6-cb1190b1fad9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fonts/Montserrat/Montserrat-MediumItalic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/landingpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/landingpage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/landingpage.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/landingpage.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/landingpage.php" beforeDir="false" afterPath="$PROJECT_DIR$/landingpage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/landingpage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/landingpage.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +30,7 @@
             <entry file="file://$PROJECT_DIR$/landingpage.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="606">
-                  <caret line="190" column="4" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="4" />
+                  <caret line="205" column="4" selection-start-line="205" selection-start-column="4" selection-end-line="205" selection-end-column="4" />
                   <folding>
                     <element signature="e#7876#7957#0#HTML" />
                   </folding>
@@ -95,8 +90,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/landingpage.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="621">
-                  <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+                <state relative-caret-position="555">
+                  <caret line="94" column="25" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -312,18 +307,18 @@
       <workItem from="1555520799304" duration="590000" />
       <workItem from="1555586481692" duration="14237000" />
       <workItem from="1555908065219" duration="27187000" />
-      <workItem from="1556247172327" duration="2544000" />
+      <workItem from="1556247172327" duration="3224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65525000" />
+    <option name="totallyTimeSpent" value="66205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14520743" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14520743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -651,15 +646,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/landingpage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+        <state relative-caret-position="555">
+          <caret line="94" column="25" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/landingpage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="606">
-          <caret line="190" column="4" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="4" />
+          <caret line="205" column="4" selection-start-line="205" selection-start-column="4" selection-end-line="205" selection-end-column="4" />
           <folding>
             <element signature="e#7876#7957#0#HTML" />
           </folding>
