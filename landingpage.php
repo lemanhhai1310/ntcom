@@ -164,8 +164,30 @@
 <div class="uk-section block3">
     <div class="uk-container">
         <div class="card9">
-
+            <div class="uk-child-width-1-2@m uk-flex-middle" uk-grid>
+                <div>
+                    <p class="desc_kh_rate_txt">“Tôi chưa từng biết đến nhà thông minh cho đến khi được các kiến trúc sư và kỹ thuật viên tư vấn. Lắp đặt các thiết bị của NTCOM khiến không gian căn nhà tôi đẳng cấp hơn rất nhiều. Tôi thích thiết kế mặt phím bằng kính cường lực NTCOM, đặc biệt là phần viền bằng nhôm nguyên khối màu vàng gold, rất hợp với phong cách tân cổ điển mà tôi chọn cho nội thất của nhà mình.”</p>
+                    <div class="uk-grid-small" uk-grid>
+                        <div class="uk-width-auto">
+                            <div class="uk-cover-container uk-border-circle">
+                                <img src="https://scontent.fhan5-5.fna.fbcdn.net/v/t1.0-9/58443258_120089352508899_8074488218117996544_o.jpg?_nc_cat=108&_nc_oc=AQl3f_XZrQDsP39EFeGaZcubbjed_634FZVhk4x7og65oVAoe4uY4tM9Zw4mBA67nus&_nc_ht=scontent.fhan5-5.fna&oh=6196525023fd9eb29f5f7296a3265d70&oe=5D2D85A5" alt="" uk-cover>
+                                <canvas width="40" height="40"></canvas>
+                            </div>
+                        </div>
+                        <div class="uk-width-expand">
+                            <h5 class="title_kh_rate">Anh Long – Chi phí lắp đặt 76 triệu</h5>
+                            <p class="desc_kh_rate">Biệt thự khu Phong Lan, Vinhomes riverside, Long Biên, Hà Nội</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="imgs/landingpage/img_rate_kh.png" alt="">
+                </div>
+            </div>
         </div>
     </div>
+</div>
+<div class="uk-section">
+
 </div>
 <?php include('footer.php'); ?>
